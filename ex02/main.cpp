@@ -1,4 +1,14 @@
-
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: igngonza <igngonza@student.42madrid.com>   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/02/02 11:17:57 by igngonza          #+#    #+#             */
+/*   Updated: 2026/02/02 11:18:11 by igngonza         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include "Array.hpp"
 #include <iostream>
 #include <string>
@@ -21,7 +31,7 @@ int main() {
   std::cout << "Default initialized int pointer *a = " << *a << std::endl;
   delete a;
 
-  std::cout << "\n Subscript operator [] " << std::endl;
+  std::cout << "\nSubscript operator [] " << std::endl;
   for (unsigned int i = 0; i < numbers.size(); i++) {
     numbers[i] = i * 10;
     std::cout << "numbers[" << i << "] = " << numbers[i] << std::endl;
